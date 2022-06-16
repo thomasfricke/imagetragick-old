@@ -16,6 +16,7 @@ ADD demo/ .
 RUN yum -y install epel-release
 RUN yum -y install npm-1:3.10.10 nodejs-1:6.17.1-1.el7
 
+
 RUN npm install
 RUN /root/node_modules/@angular/cli/bin/ng build
 
